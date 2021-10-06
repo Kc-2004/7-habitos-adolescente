@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+body{
+	background: #313D52;
+	}
+	/*Contenido*/
+.contenido{
+max-width: 1500px;
+width: 1250px;
+margin:0px 40px;
+height: auto;
+float: right;
+text-align: center;
+ justify-content: center;
+ align-content: center;
+}
+		/*Header*/
+header .logo{
+	float: left;
+	max-width: 120px;
+	height: auto;
+	margin: 0px 100px;
+
+}
+h1{
+	max-width: 1000px;
+	margin: 10px 200px;
+	padding: 20px 0px;
+	text-align: center;
+	font-family: 'Pacifico';
+	color: white;
+	font-style: italic;
+	font-size: 50px;
+}
+/*Menú de Navegación*/
+.navegacionfirst{
+	max-width: 1200px;
+	width: 1200px;
+	margin:auto;
+	height: auto;
+	
+}
+.navegacion{
+	height: auto;
+	border-radius: 40px;
+	display: flex;
+	background: #E5E8E2;
+	align-items: center;
+	justify-content: center;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+	/*position: relative;*/
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-size: 25px;
+	font-family: Verdana;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+/* Submenu*/
+
+.submenu{
+	position:absolute;
+	background: #333333;
+	width: 50%
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #FFFFFF;
+	font-family: Verdana;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	width: 100px;
+	opacity: 1;
+}
+
+ /*Texto Normal*/
+.parra{
+	color: white;
+	font-family: Verdana;
+	text-align: justify;
+}
+h2{
+	color: white;
+	font-family: Helvetica;
+}
+.img1{
+	height: 300px;
+	width: 300px;
+} 
+/*Texto a la izquierda*/
+.parra3{
+	color: white;
+	font-family: Verdana;
+	text-align: justify;
+	float: left;
+	max-width: 600px;
+	width: 600px;
+	margin: 0px 80px;
+	padding:0px -20px;
+}
+.img2{
+
+	max-width: 300px;
+	width: 300px;
+	height: 200px;
+	float: right;
+	margin: 0px 90px;
+	padding: -30px;
+}
+.space{
+	margin: 20rem;
+}
+.spa{
+	margin: 15rem;
+}
+/*Texto a la derecha*/
+.img{
+
+	max-width: 400px;
+	width: 300px;
+	height: auto;
+	float: left;
+	margin: -20px 80px;
+	
+}
+.parra2{
+color: white;
+	font-family: Verdana;
+	text-align: justify;
+	float: right;
+	max-width: 600px;
+	width: 600px;
+	margin: 0px 90px;
+}
+/*Sitios para comprar el libro*/
+#sitios{
+	
+	color: #FFAE52;
+}
+/*Pie de pagina*/
+footer{
+	align-content: center;
+	max-width: 1250px;
+	width: 1250px;
+	height: auto;
+	color: white;
+	text-align: center;
+	background-color: #898786;
+	clear: both;
+}
+.foot {
+	color: #000000;
+}
+/*formulario*/
+.img-form{
+	max-width: 400px;
+	float: left;
+	width: 400px;
+	display: block;
+	padding: 1rem;
+	height: auto;
+}
+.form{
+	width: 400px;
+	max-width: 400px;
+	float: right;
+	font-size: 15px;
+	color: white;
+	height: auto;
+	font-family: Helvetica;
+	float: flex;
+	margin:-0px 150px;
+}
+select{
+background-color: #E5E8E2;
+font-size: 20px;
+padding: 3px;
+border-radius: 5px;
+height: 3rem;
+margin: 5px;
+}
+input{
+	width: 200px;
+	height: 2rem;
+	border-radius: 5px;
+	border: 1px;
+	margin: 5px;
+}
+textarea{
+	padding: 2.5rem;
+	border-radius: 5px;
+}
+.button{
+	background: #898786;
+	text-align: center;
+	border-radius: 5px;
+	width: 100px;
+	color: white;
+}
+/*Imagenes de la tabla*/
+.imga  {
+	width: 150px;
+	height: 100px;
+}
+/*Texto añadido*/
+	#list{
+	list-style: none;
+	font-size: 20px;
+	color: white;
+}
+/*Slider*/
+
+#contenedor{
+	width: 500px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+#contenedor ul{
+	list-style: none;
+	width: 2000px;
+	display: flex;
+
+	animation: slide 20s infinite;
+}
+
+@keyframes slide {
+	0% {margin-left: 0px;}
+	20% {margin-left: 0px;}
+
+	25% {margin-left: -500px;}
+	45% {margin-left: -500px;}
+
+	50% {margin-left: -1000px;}
+	70% {margin-left: -1000px;}
+}
+/*Galería*/
+.gale{
+	float: left;
+	display: flex;
+	max-width: 400px;
+	width: 300px;
+	height: 300px;
+	margin: 0px 50px;
+}
+.videos{
+	max-width: 500px;
+	width: 700px;
+	margin: 0px 50px;
+	display: flex;
+	float: left;
+}
